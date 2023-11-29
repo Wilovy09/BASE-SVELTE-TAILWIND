@@ -1,0 +1,29 @@
+/* ***************** */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* ***************** */
+
+/*  Global  */
+*::selection {
+    background-color: #4ade80;
+    color: #090909;
+}
+*::-moz-selection {
+    background-color:#4ade80;
+    color: #090909;
+}
+html{
+    scrollbar-color: #ffffff;
+}
+html::-webkit-scrollbar {
+    background-color: #090909;
+    max-width: 5px;
+}  
+html::-webkit-scrollbar-track {
+    background: linear-gradient(90deg, rgba(9,9,9,0) 49.9%, rgb(255, 255, 255) 50%, rgba(9,9,9,0) 50.1%);
+}   
+html::-webkit-scrollbar-thumb {
+    background: #ffffff;
+    width: 5px;
+}
